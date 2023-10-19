@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+body{
+    background-image:url(./images/wall.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+img{
+    height: 10vh;
+    width: auto;
+}
+
+button{
+    background-color: rgb(230, 197, 11);
+    margin: 5px;
+    margin-left: 30%;
+    padding: 5px;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 244, 181);
+}
+button:active{
+    transform: translateY(5px);
+}
+
+.contenedor{
+    position: relative;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    color: yellow;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'My Soul', cursive;
+    text-shadow: 0 0 10px black;
+    
+}
