@@ -55,3 +55,23 @@ btn5.addEventListener('click', () =>{
     fiveBtn.load();
     fiveBtn.play();
 });
+
+
+document.addEventListener('keypress', function (evt){
+    if (evt.key === 'A' || evt.key==='a') {
+        firstBtn.load();
+        firstBtn.play();
+    }else if(evt.key === 'W' || evt.key==='w'){
+        secondBtn.load();
+        secondBtn.play();
+    }else if(evt.key === 'S' || evt.key==='s'){
+        thirdBtn.load();
+        thirdBtn.play();
+    }else if(evt.key === 'D' || evt.key==='d'){
+        fourBtn.load();
+        fourBtn.play();
+    }else if(evt.key === 'Z' || evt.key==='z'){
+        fiveBtn.load();
+        fiveBtn.play();
+    }
+});
